@@ -1,2 +1,1 @@
-#!/bin/bash
-ls -aR | wc -l
+#!/bin/bashind . -type d | wc -l
