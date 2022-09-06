@@ -1,0 +1,2 @@
+#!/bin/bash
+COUNT=$(echo $PATH | grep -o ':/' | wc -l); echo $((++COUNT))
