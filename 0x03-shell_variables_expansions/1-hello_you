@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv | grep "^USER" | tr -d "USER="
+echo "hello "$USER
