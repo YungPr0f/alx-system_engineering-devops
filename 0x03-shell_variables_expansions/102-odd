@@ -1,2 +1,2 @@
 #!/bin/bash
-awk "NR % 2 == 0"
+ls -1 | grep '.' -n | grep -P '^[13579]([13579]|:)' | cut -d ':' -f2
