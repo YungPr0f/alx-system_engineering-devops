@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -d '-' -f1 | tr -d '\t' | sort | uniq -c | cut -c9-
